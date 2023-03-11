@@ -1,2 +1,2 @@
-# sonarqube
+# Sonarqube
 Install sonarqube via docker
