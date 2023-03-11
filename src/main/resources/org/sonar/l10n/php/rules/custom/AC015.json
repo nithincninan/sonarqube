@@ -1,0 +1,15 @@
+{
+  "title": "Empty CATCH statement must have a comment to explain why the exception is not handled:",
+  "type": "CODE_SMELL",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "7min"
+  },
+  "tags": [],
+  "defaultSeverity": "MAJOR",
+  "ruleSpecification": "AC-015",
+  "sqKey": "AC015",
+  "scope": "Main",
+  "quickfix": "unknown"
+}
