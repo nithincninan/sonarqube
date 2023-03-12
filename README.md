@@ -12,20 +12,19 @@
   - https://docs.sonarqube.org/latest/setup-and-upgrade/install-the-server/
   - https://docs.sonarqube.org/9.6/requirements/prerequisites-and-overview/#platform-notes
 
-    ```Note: If any issues with max_map_count increase this value to "524288". 
-  
-     - /var/www/sonarqube$ sysctl vm.max_map_count
-       vm.max_map_count = 65530 
+    Note: If any issues with max_map_count increase this value to "524288"  
+    ```- /var/www/sonarqube$ sysctl vm.max_map_count
+            vm.max_map_count = 65530 
     
-     - /var/www/sonarqube$ sudo sysctl -w vm.max_map_count=524288
-       [sudo] password for user:
-       vm.max_map_count = 524288
+       - /var/www/sonarqube$ sudo sysctl -w vm.max_map_count=524288
+           [sudo] password for user:
+           vm.max_map_count = 524288
     
-     -  /var/www/sonarqube$ sysctl vm.max_map_count
-        vm.max_map_count = 524288
-    
-     - /var/www/sonarqube$ sysctl -p
-       (reload sonarqube)```
+       - /var/www/sonarqube$ sysctl vm.max_map_count
+            vm.max_map_count = 524288
+
+       - /var/www/sonarqube$ sysctl -p
+          (reload sonarqube)```
     
 *  Add Custom Rule/Plugin for sonar-php:
 
