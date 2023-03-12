@@ -7,7 +7,7 @@
   - login: admin
     password: admin
   
-    <img src="C:\Users\chackoni\OneDrive - Adobe Systems Incorporated\Desktop\sonar-local-docker.jpg"/>
+    ![sonar-local-docker](https://user-images.githubusercontent.com/2525741/224569720-eede1a99-b7d0-41d1-9b5e-c55f6d974441.jpg)
     
     Refer: 
   - https://docs.sonarqube.org/latest/setup-and-upgrade/install-the-server/
