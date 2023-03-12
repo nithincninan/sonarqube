@@ -1,4 +1,4 @@
-# Sonarqube
+# Sonarqube / Custom Rule for sonar-php
 
 * Install sonarqube via docker (recommend using Docker Engine version 20.10 and above.)
 
