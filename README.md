@@ -33,7 +33,7 @@
    - Use the current Custom code with Java/Maven build system in Intellij.
    - Write custom rules and create plugin (https://docs.sonarqube.org/9.6/analyzing-source-code/languages/php/#custom-rules) 
    - Once done, Use maven clean/install command or run from Intellij. So that jar/target file will generate.
-   - Put the downloaded jar in <SONARQUBE_HOME>/extensions/plugins, and remove any previous versions of the same plugins.
+   - Put the downloaded jar in <SONARQUBE_HOME>/extensions/plugins, and remove any previous versions of the same plugins (https://docs.sonarqube.org/9.6/setup-and-upgrade/install-a-plugin/).
    - Restart your SonarQube server.
    - Test the custom rule(php) in http://localhost:9000
 
