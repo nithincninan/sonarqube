@@ -3,7 +3,7 @@
 * Install sonarqube via docker (recommend using Docker Engine version 20.10 and above.)
 
   - Run docker-compose up -d
-  - Once your instance is up and running, Log in to http://localhost:9000
+  - Once the instance is up, Log in to http://localhost:9000
   - login: admin / password: admin
   
     ![sonar-local-docker](https://user-images.githubusercontent.com/2525741/224569720-eede1a99-b7d0-41d1-9b5e-c55f6d974441.jpg)
